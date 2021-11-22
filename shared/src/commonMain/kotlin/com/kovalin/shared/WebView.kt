@@ -2,6 +2,10 @@ package com.kovalin.shared
 
 expect class WebView(native: Any) {
 
-  fun loadHtml(html: String);
+  fun loadUrl(url: String);
+
+  fun loadResource(path: String);
+
+  fun loadHtml(baseUrl: String, html: String);
 
 }

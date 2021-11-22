@@ -6,7 +6,7 @@ plugins {
     id("kotlin-android-extensions")
 }
 
-group = "com.tabris"
+group = "com.kovalin"
 version = "1.0-SNAPSHOT"
 
 kotlin {
@@ -43,6 +43,7 @@ kotlin {
 android {
     compileSdkVersion(29)
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    sourceSets["main"].assets.srcDir("src/commonMain/assets")
     defaultConfig {
         minSdkVersion(24)
         targetSdkVersion(29)

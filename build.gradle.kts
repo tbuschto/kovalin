@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-group = "com.tabris"
+group = "com.kovalin"
 version = "1.0-SNAPSHOT"
 
 allprojects {

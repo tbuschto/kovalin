@@ -4,7 +4,7 @@ plugins {
     id("kotlin-android-extensions")
 }
 
-group = "com.tabris"
+group = "com.kovalin"
 version = "1.0-SNAPSHOT"
 
 dependencies {
@@ -17,7 +17,7 @@ dependencies {
 android {
     compileSdkVersion(29)
     defaultConfig {
-        applicationId = "com.tabris.androidApp"
+        applicationId = "com.kovalin.androidApp"
         minSdkVersion(24)
         targetSdkVersion(29)
         versionCode = 1

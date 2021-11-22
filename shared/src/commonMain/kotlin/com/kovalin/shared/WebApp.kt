@@ -3,14 +3,8 @@ package com.kovalin.shared
 
 object WebApp {
 
-    fun start(webView: WebView) {
-        webView.loadHtml("""
-          <html>
-            <body>
-              <div>Hello World</div>
-            </body>
-          </html>
-        """.trimIndent())
-    }
+  fun start(webView: WebView) {
+    webView.loadResource("www/index.html")
+  }
 
 }
