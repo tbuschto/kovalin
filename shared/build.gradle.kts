@@ -44,6 +44,7 @@ android {
     compileSdkVersion(29)
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     sourceSets["main"].assets.srcDir("src/commonMain/assets")
+    sourceSets["main"].assets.srcDir("src/androidMain/assets")
     defaultConfig {
         minSdkVersion(24)
         targetSdkVersion(29)

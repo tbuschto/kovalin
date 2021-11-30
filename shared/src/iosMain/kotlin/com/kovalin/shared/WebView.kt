@@ -4,6 +4,9 @@ import platform.WebKit.WKWebView
 
 actual class WebView actual constructor(native: Any) {
 
+  actual val messageHandler: ArrayList<(message: Any) -> Unit>
+    get() = TODO("Not yet implemented")
+
   private val webView: WKWebView
 
   init {
